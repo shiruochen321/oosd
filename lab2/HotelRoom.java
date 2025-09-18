@@ -5,9 +5,11 @@ public class HotelRoom {
     private double rate;
 
     public HotelRoom() {
-       this.roomNumber = 200;
-       this.roomType = Single;
-       
+       this.roomNumber = 100;
+       this.roomType = "";
+       this.occupied = 0;
+       this.rate = 0.0;
+
     }
 
 
